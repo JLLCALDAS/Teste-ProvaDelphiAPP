@@ -3,7 +3,7 @@ object fTarefa2: TfTarefa2
   Top = 0
   Caption = 'Prova Delphi App - Tarefa 2'
   ClientHeight = 219
-  ClientWidth = 527
+  ClientWidth = 434
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,10 +17,14 @@ object fTarefa2: TfTarefa2
   object pnlContador1: TPanel
     Left = 0
     Top = 0
-    Width = 527
+    Width = 434
     Height = 81
     Align = alTop
     TabOrder = 0
+    ExplicitWidth = 527
+    DesignSize = (
+      434
+      81)
     object lblcontador1: TLabel
       Left = 253
       Top = 32
@@ -37,11 +41,13 @@ object fTarefa2: TfTarefa2
       Caption = 'Tempo de Intera'#231#227'o'
     end
     object prbContador1: TProgressBar
-      Left = 8
+      Left = -88
       Top = 49
       Width = 507
       Height = 24
+      Anchors = [akTop, akRight]
       TabOrder = 0
+      ExplicitLeft = 8
     end
     object edtTempoInteracao1: TEdit
       Left = 8
@@ -53,24 +59,27 @@ object fTarefa2: TfTarefa2
       Text = '0'
     end
     object btnFinalizarInt1: TButton
-      Left = 440
+      Left = 344
       Top = 21
       Width = 75
       Height = 25
+      Anchors = [akTop, akRight]
       Caption = 'Finalizar'
       Enabled = False
       TabOrder = 2
       OnClick = btnFinalizarInt1Click
+      ExplicitLeft = 440
     end
   end
   object pnlButton: TPanel
     Left = 0
     Top = 162
-    Width = 527
+    Width = 434
     Height = 57
     Align = alBottom
     TabOrder = 1
     ExplicitTop = 84
+    ExplicitWidth = 527
     object btnExecutar: TButton
       Left = 344
       Top = 23
@@ -84,11 +93,15 @@ object fTarefa2: TfTarefa2
   object pnlContador2: TPanel
     Left = 0
     Top = 81
-    Width = 527
+    Width = 434
     Height = 81
     Align = alClient
     TabOrder = 2
+    ExplicitWidth = 527
     ExplicitHeight = 80
+    DesignSize = (
+      434
+      81)
     object lblcontador2: TLabel
       Left = 253
       Top = 30
@@ -105,11 +118,13 @@ object fTarefa2: TfTarefa2
       Caption = 'Tempo de Intera'#231#227'o'
     end
     object prbContador2: TProgressBar
-      Left = 8
+      Left = -88
       Top = 49
       Width = 507
       Height = 24
+      Anchors = [akTop, akRight]
       TabOrder = 0
+      ExplicitLeft = 8
     end
     object edtTempoInteracao2: TEdit
       Left = 8
@@ -121,14 +136,16 @@ object fTarefa2: TfTarefa2
       Text = '0'
     end
     object btnFinalizarInt2: TButton
-      Left = 440
+      Left = 344
       Top = 21
       Width = 75
       Height = 25
+      Anchors = [akTop, akRight]
       Caption = 'Finalizar'
       Enabled = False
       TabOrder = 2
       OnClick = btnFinalizarInt2Click
+      ExplicitLeft = 440
     end
   end
 end
